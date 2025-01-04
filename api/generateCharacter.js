@@ -1,4 +1,5 @@
 import * as Sentry from '@sentry/node';
+import fetch from 'node-fetch';
 
 Sentry.init({
   dsn: process.env.VITE_PUBLIC_SENTRY_DSN,
